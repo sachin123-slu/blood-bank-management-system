@@ -24,6 +24,10 @@ app.use(
   }),
 );
 
+app.get("/", (req, res) => {
+  res.send("Backend Running Successfully 🚀");
+});
+
 app.use("/api/doc", swaggerUi.serve, swaggerUi.setup(swaggerDocs));
 
 // 🧩 Routes
