@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES2021",
+    "module": "ESNext",
+    "allowSyntheticDefaultImports": true,
+    "allowJs": true,
+    "checkJs": false,
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
